@@ -17,3 +17,5 @@ pillow
 fastapi-mail
 google-auth
 requests
+python-multipart
+
