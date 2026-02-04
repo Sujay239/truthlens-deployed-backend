@@ -18,4 +18,5 @@ fastapi-mail
 google-auth
 requests
 python-multipart
+librosa
 
