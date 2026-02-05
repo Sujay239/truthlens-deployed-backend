@@ -17,6 +17,8 @@ pillow
 fastapi-mail
 google-auth
 requests
-python-multipart
 librosa
-
+numpy
+joblib
+soundfile
+python-multipart
