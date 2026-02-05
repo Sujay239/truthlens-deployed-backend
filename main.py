@@ -93,11 +93,6 @@ app.include_router(history.router)
 app.include_router(email_test.router)
 app.include_router(dashboard.router)
 
-# -----------------------------
-# Startup event (ML preload)
-# -----------------------------
-@app.on_event("startup")
-async def startup_event():
-    print("Pre-loading BERT model...")
-    get_model_and_tokenizer()
-    print("BERT model loaded successfully!")
+from app.ml.bert_classifier import get_model_and_tokenizer
+
+
